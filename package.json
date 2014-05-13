@@ -1,0 +1,14 @@
+{
+  "name": "usecase-dsl",
+  "main": "./lib/usecase-dsl",
+  "version": "0.0.0",
+  "description": "A syntax grammar package for Atom.io editor.",
+  "activationEvents": ["usecase-dsl:toggle"],
+  "repository": "https://github.com/atom/usecase-dsl",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+  }
+}

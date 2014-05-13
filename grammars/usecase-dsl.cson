@@ -1,0 +1,31 @@
+'fileTypes': [
+  'dsl'
+]
+
+'name': 'Use Case DSL'
+
+'patterns': [
+  {
+    'name': 'keyword.control.dsl'
+    'match': '(usecase|basicFlow|alternative|exception|system)'
+  }
+  {
+    'name': 'support.function.dsl'
+    'match': '(actor|step|preCondition|postCondition|af|ef|bfs)'
+  }
+  {
+    'name': 'comment.double-slash.dsl'
+    'begin': '//'
+  }
+  {
+    'name': 'constant.numeric.dsl'
+    'match': '\\d'
+  }
+  {
+    'name': 'string.quoted.double.dsl'
+    'begin': '"'
+    'end': '"'
+  }
+]
+
+'scopeName': 'text.dsl'
