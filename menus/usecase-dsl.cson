@@ -1,0 +1,16 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  '.overlayer':
+      'Enable usecase-dsl': 'usecase-dsl:toggle'
+
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'usecase-dsl'
+      'submenu': [
+        { 'label': 'Toggle', 'command': 'usecase-dsl:toggle' }
+      ]
+    ]
+  }
+]

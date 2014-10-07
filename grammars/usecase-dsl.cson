@@ -16,6 +16,7 @@
   {
     'name': 'comment.double-slash.dsl'
     'begin': '//'
+    'end': '$'
   }
   {
     'name': 'constant.numeric.dsl'
