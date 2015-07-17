@@ -7,7 +7,7 @@
     "atom-workspace": ["usecase-dsl:toggle"],
     "atom-text-editor": ["usecase-dsl:toggle"]
   },
-  "repository": "https://github.com/atom/usecase-dsl",
+  "repository": "https://github.com/daltonjorge/usecase-dsl",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
