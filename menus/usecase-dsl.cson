@@ -1,7 +1,6 @@
 # See https://atom.io/docs/latest/creating-a-package#menus for more details
 'context-menu':
-  '.overlayer':
-      'Enable usecase-dsl': 'usecase-dsl:toggle'
+  'atom-workspace': [{label: 'Enable usecase-dsl', command: 'usecase-dsl:toggle'}]
 
 'menu': [
   {
